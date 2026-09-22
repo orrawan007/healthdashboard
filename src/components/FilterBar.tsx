@@ -42,11 +42,11 @@ export const FilterBar: React.FC<FilterBarProps> = ({
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-3 mb-4 pb-3 border-b-2 border-dashed border-amber-100">
         <div className="flex items-center gap-2.5">
           <div className="w-10 h-10 rounded-2xl bg-amber-200 text-amber-950 flex items-center justify-center text-lg shadow-2xs">
-            🧸
+            🩺
           </div>
           <div>
             <h3 className="font-bold text-stone-900 text-sm sm:text-base font-['Mali',cursive] flex items-center gap-2">
-              <span>แผงตัวกรองสุขภาพสุดคิ้วท์ (Data Filters)</span>
+              <span>การคัดกรองสุขภาพ</span>
               {isFiltered && (
                 <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-amber-200 text-amber-950 border border-amber-300">
                   <Sparkles className="w-3 h-3 text-amber-700" />
